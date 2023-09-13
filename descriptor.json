@@ -1,0 +1,46 @@
+{
+  "name": "Send Priority Message To Assets",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A1: Send Priority Message To Assets",
+  "description": "Sends priority message to staff devices, on success returns true, else false",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/SendPriorityMessageToAssets",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "StaffIdList",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Status",
+      "type": "string"
+    }
+  ]
+}
