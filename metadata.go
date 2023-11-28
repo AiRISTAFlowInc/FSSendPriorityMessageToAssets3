@@ -66,5 +66,5 @@ func (o *Output) ToMap() map[string]interface{} {
 }
 
 type Asset struct {
-	ID                           int    `json:"Id"`
+	ItemId                           int    `json:"ItemId"`
 } 

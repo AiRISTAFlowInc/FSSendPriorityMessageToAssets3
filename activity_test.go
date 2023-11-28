@@ -20,7 +20,7 @@ func TestEval(t *testing.T) {
 
 	act := &Activity{}
 	tc := test.NewActivityContext(act.Metadata())
-	input := &Input{IP: "52.45.17.177:802", CustomerId: "1", Username: "afadmin", Password: "admin", StaffIdList: "9064,37685", Message: "Test Priority-Multi-Message 4"}
+	input := &Input{IP: "3.212.201.170:802", CustomerId: "2047", Username: "afadmin", Password: "admin", StaffIdList: "400001909", Message: "Test prio msg chh"}
 	// StaffIdList "9064" OR "9064,37685" OR "{"Id": 9064}"
 	err := tc.SetInputObject(input)
 	assert.Nil(t, err)
