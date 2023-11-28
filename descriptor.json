@@ -2,7 +2,7 @@
   "name": "Send Priority Message To Assets",
   "type": "flogo:activity",
   "version": "0.0.1",
-  "title": "A2: Send Priority Message To Assets",
+  "title": "A3: Send Priority Message To Assets",
   "description": "Sends priority message to staff devices, on success returns true, else false",
   "homepage": "https://github.com/AiRISTAFlowInc/FSSendPriorityMessageToAssets",
   "input": [
