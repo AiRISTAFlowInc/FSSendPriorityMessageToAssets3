@@ -65,6 +65,9 @@ func (o *Output) ToMap() map[string]interface{} {
 	}
 }
 
+// take device ItemId associated with staff memeber to send message
 type Asset struct {
-	ItemId                           int    `json:"ItemId"`
-} 
+	AssociatedDevices []struct {
+		ItemID                   int       `json:"ItemId"`
+	} `json:"AssociatedDevices"`
+}

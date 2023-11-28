@@ -17,6 +17,6 @@ This activity sends a priority message to a specified asset.
 
 ### Output:
 
-| Name   | Type    | Description                       |
-| :----- | :------ | :-------------------------------- |
-| Status | boolean | True if message sent successfully |
+| Name   | Type   | Description                       |
+| :----- | :----- | :-------------------------------- |
+| Status | string | True if message sent successfully |
