@@ -63,7 +63,7 @@ func SendPriorityMessageToAssets(IP string, CustomerId string, username string, 
 	var asset Asset
 	assetCheck := json.Unmarshal([]byte(StaffIdList), &asset) // check if Asset Obj
 	if (assetCheck == nil){ // if no error puting into asset struct, then obj
-		StaffIdList = strconv.Itoa(asset.AssociatedDevices[0].ItemID)
+		StaffIdList = strconv.Itoa(asset.ID)
 	}
 
 	//Hardcoded variables
